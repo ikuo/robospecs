@@ -4,4 +4,5 @@ resolvers +=
     url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases")
   )(Resolver.ivyStylePatterns)
 
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.8.5")
+// Comment out as a workaround of "unresolved dependency: com.eed3si9n#sbt-assembly;0.8.5: not found"
+//addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.8.5")
